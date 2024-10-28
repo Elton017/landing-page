@@ -139,3 +139,31 @@ li {
     padding-right: 100px;
     padding-bottom: 50px;
 }
+
+.row4 {
+    display: flex;
+    background-color: #3883f6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.textheader {
+    font-weight: bold;
+    font-size: large;
+}
+
+.row4 .signup {
+    margin: 0;
+    align-self: center;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
