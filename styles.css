@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    font-family: Roboto, sans-serif;
+    color: white;
 }
 
 ul {
@@ -16,7 +18,6 @@ li {
 
 .header ul li a {
     font-size: 18px;
-    color: white;
     text-decoration: none;
     padding: 5px;
 }
@@ -26,7 +27,7 @@ li {
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 100px;
 }
 
 .headerlogo {
@@ -34,3 +35,42 @@ li {
     width: auto;
 }
 
+.row1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.row1 img {
+    height: 200px;
+    width: auto;
+    padding-bottom: 50px;
+}
+
+.herotext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herosecondary {
+    font-size: 24px;
+    color: #e5e7eb;
+    text-wrap: wrap;
+    padding: 10px 0;
+}
+
+.r1column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    background-color: #3883f6;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    align-self:flex-start;
+}
