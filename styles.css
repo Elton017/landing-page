@@ -20,6 +20,7 @@ li {
     font-size: 18px;
     text-decoration: none;
     padding: 5px;
+    color: inherit;
 }
 
 .header {
@@ -73,4 +74,45 @@ li {
     border: none;
     border-radius: 5px;
     align-self:flex-start;
+    color:white;
+    margin-bottom: 75px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoheader {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    align-self:center;
+    padding: 20px;
+}
+
+.row2 img {
+    height: 75px;
+    width: auto;
+    border-color: #3883f6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.row2 ul {
+    justify-content: center;
+    gap: 30px;
+}
+
+.row2 ul li {
+    display: flex;
+    flex-direction: column;
+    flex-basis:75px;
+}
+
+.row2 ul a {
+    color: black;
+    text-align: center;
 }
