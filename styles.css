@@ -1,14 +1,36 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
 }
 
 .headerlogo {
     height: 50px;
     width: auto;
 }
+
